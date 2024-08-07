@@ -1,4 +1,4 @@
-# Lista de Compras
+# Lista de Compras - https://br1ansouza.github.io/lista-de-compras/
 
 Este projeto é uma aplicação web simples de lista de compras, onde você pode adicionar, editar e excluir itens da lista. A lista é exibida de forma responsiva e suporta rolagem quando muitos itens são adicionados.
 
