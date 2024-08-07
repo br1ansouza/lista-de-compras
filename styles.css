@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c7bda;
+}
+
+.section-center {
+    max-width: 800px;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+.form-controle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+}
+
+#compras {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.adicionar-btn {
+    margin-left: 1rem;
+    margin-right: 10px;
+}
+
+.compras-container {
+    margin-top: 1rem;
+    max-height: 700px;  /* defina a altura máxima da lista */
+    overflow-y: auto;  /* adiciona rolagem vertical */
+}
+
+.compras-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.compras-item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+}
+
+.compras-item:hover {
+    background-color: #f3b14e;
+}
+
+.btn-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-container button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-container .fa-edit {
+    color: #28a745;
+    
+}
+
+.btn-container .fa-trash {
+    color: #dc3545;
+}
+
+.excluir-btn {
+    margin-top: 1rem;
+}
+
+.alert {
+    display: none;
+}
+
+.alert.show {
+    display: block;
+}
