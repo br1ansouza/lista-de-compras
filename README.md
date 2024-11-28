@@ -17,13 +17,6 @@ Este projeto é uma aplicação web simples de lista de compras, onde você pode
 - **JavaScript**: Funcionalidades interativas, como adicionar, editar e excluir itens.
 
 
-## Estrutura do Projeto
-/lista-de-compras
-    /index.html
-    /styles.css
-    /script.js
-    /README.md
-
 ## Contribuições
 
 Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um "issue" ou enviar um "pull request".
